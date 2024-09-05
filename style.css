@@ -1,0 +1,363 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+.header{
+
+}
+.nav{
+  
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.logo{
+width:270px;
+  
+}
+.logo img{
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ababab;
+}
+
+.links li{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ababab;
+}
+.links li:first-child{
+    color: #00b39b;
+}
+.links li:hover{
+    color: #00b39b;
+}
+/* main styles */
+
+.section1{
+max-width: 1200px;
+padding: 100px 10px;
+    margin: 0 auto;
+}
+
+.section1 .title-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 .title-logo img{
+    width: 40px;
+}
+.section1 .title{
+    color: #00b39b;
+    text-align: center;
+    font-size:35px;
+    font-family:  Arial, sans-serif;
+     font-weight: 100;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 40px 20px;
+    margin-top: 20px;
+  
+}
+
+.desc p{
+  padding-right: 50px;
+    color:#928c8c;
+    font-size: 17px;
+  max-width: 300px;
+  text-align: justify;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    max-width: 950px;
+    margin: 0px auto;
+    margin-top: 40px;
+    color:white
+}
+
+.box{
+    border-radius: 5px;
+    padding: 40px;
+}
+.box select{
+    background-color:#00ccb1;
+    outline: none;
+    border: none;
+    color:white;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+.box
+.box img{
+    margin-bottom: 10px;
+    width: 30px;
+}
+.box h2{
+    font-size: 40px;
+   font-weight: 400;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 10px;
+}
+.box p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.box1 {
+    background-color: #00ccb1;
+  
+}
+.box2 {
+    background-color: #3d83df;
+}
+
+.box2 select{  background-color: #3d83df;}
+
+.box3 {
+    background-color: #1b2734;
+}
+.box3 select{  background-color: #1b2734; margin-top: 20px; }
+
+@media (max-width: 768px) {
+    .boxes{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.motto{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.motto .title {
+    width:50%;
+}
+.motto .title h2{
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+.motto .logos{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  max-width:50%;
+  gap:20px;
+  align-items: center;
+  width: 100%;
+}
+.logos img{
+    width: 100%;
+    max-width: 100px;
+}
+/* section 2 styles */
+
+.section2{
+
+    background-color: #d0faf4;
+ margin-bottom: 20px;
+ padding: 0px 20px;
+}
+
+.section2 .flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+.cropped-logo{
+    display: flex;
+    flex-direction: column;
+    gap:100px;
+    width:50%;
+    padding: 0px 50px;
+}
+
+
+
+.cropped-logo .title{
+max-width: 350px;
+margin-top: 60px;
+}
+.cropped-logo .title h1{
+    color: #00b39b;
+    font-size: 40px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+
+.cropped-logo p{
+    color:#928c8c;
+    margin-top: 30px;
+}
+.cropped-logo img{
+   max-width: 400px;
+}
+
+.flex .containers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  padding: 20px;
+  width:50%
+}
+
+.containers .comment{
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    width:150px;
+    min-height: 200px;
+
+}
+
+.containers .comment1{
+    margin-top: 30px;
+}
+
+.containers .pay1{
+    margin-top: 10px;
+}
+
+/* motivation */
+
+.motivation{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20rem;
+    gap: 40px;
+}
+
+.motivation h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color:#00ccb1
+}
+.motivation p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #928c8c;
+}
+
+/* gallery */
+
+.gallery{
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .display{
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gallery .display img{
+    border-radius: 5px;
+    width: 100%;
+}
+.click{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.click h2{
+    color: #928c8c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.click button{
+    border:none;
+    background: rgb(61, 131, 223);
+    color: azure;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* question */
+
+.question{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.question h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+   margin-bottom: 20px;
+}
+
+.question button{
+
+    border:none;
+    background: rgb(61, 131, 223);
+    color: azure;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    color: #928c8c;
+    padding: 40px 20px;
+}
+
+footer p{
+margin-top: 20px;
+font-size: 1.1;
+}
+
+footer .foot{
+    padding:0px 100px;
+    margin-top: 30px;
+}
